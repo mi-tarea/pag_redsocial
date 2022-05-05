@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="formulario.css">
+    <link rel="stylesheet" href="font.css">
+    <link rel="stylesheet" href="fontbod.css">
+    <title>registrate</title>
+</head>
+<body>
+
+    <div class="social-bar">
+        <!-- para iconos redes sociales  -->
+        <a href="https://es-la.facebook.com/" class="icon icon-facebook" target="_blank"></a>
+        <a href="https://web.whatsapp.com/" class="icon icon-whatsapp" target="_blank"></a>
+        <a href="https://www.youtube.com/?hl=ES" class="icon icon-youtube" target="_blank"></a>
+        <a href="https://www.instagram.com/" class="icon icon-instagram" target="_blank"></a>
+    </div>
+
+    <form>
+        <div class="form_regi">
+            <h1>Registra tu local</h1>
+            <label>Nombre del local</label>
+            <br>
+            <input type="text" class="campo" maxlength="30" required>
+            <br><br>
+
+            <label>Tipo de negocio</label>
+            <br>
+            <select name="Tipo de Negocio" class="campo">
+                <option value="1">--Ninguno--</option>
+                <option value="2">Restaurante</option>
+                <option value="3">Café</option>
+                <option value="4">Bebidas</option>
+                <option value="5">Flores</option>
+                <option value="6">Mercado</option>
+                <option value="7">Healthcare y Beauty</option>
+                <option value="8">Tienda</option>
+                <option value="9">Kiosco</option>
+                <option value="10">Mascotas</option>
+                <option value="11">Farmacia</option>
+            </select> 
+            <br><br>
+        
+            <label>Cantidad de sucursales</label>
+            <br>
+            <input type="number" class="campo" min="1" max="20" required>
+            <br><br>
+
+            <label>Nombre</label>
+            <br>
+            <input type="text" class="campo" maxlength="20" required>
+            <br><br>
+
+            <label>Apellido</label>
+            <br>
+            <input type="text" class="campo" maxlength="20" required>
+            <br><br>
+
+            <label>Teléfono de contacto</label>
+            <br>
+            <input type="tel" class="campo" placeholder="+59112345678" pattern="[+][0-9]{11}" required>
+            <br><br>
+
+            <label>Correo electrónico</label>
+            <br>
+            <input type="email" class="campo" maxlength="30" placeholder="nombre@mail.com" required>
+            <br><br>
+
+            <label>Dirección del local</label>
+            <br>
+            <input type="text" class="campo" maxlength="50" required>
+            <br><br>
+
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4605.513121616066!2d-68.13514074355074!3d-16.500132862758033!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x915f207009ffdb39%3A0x5b91010a0ffd7cb7!2sEli&#39;s%20Pizza!5e0!3m2!1ses!2sbo!4v1651094258813!5m2!1ses!2sbo" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <br><br>
+
+            <label>Referencias de ubicación</label>
+            <br>
+            <input type="text" class="campo" maxlength="50" required>
+            <br><br>
+
+            <input type="submit" class="comenzar" value="comenzar">
+        </div>
+    </form>
+    
+    <footer>
+
+        <div class="social-fot">
+            <!-- para iconos redes sociales  -->
+            <a href="https://es-la.facebook.com/" class="fot fot-facebook" target="_blank"></a>
+            <a href="https://web.whatsapp.com/" class="fot fot-whatsapp" target="_blank"></a>
+            <a href="https://www.youtube.com/?hl=ES" class="fot fot-youtube" target="_blank"></a>
+            <a href="https://www.instagram.com/" class="fot fot-instagram" target="_blank"></a>
+        </div>
+
+        <b>Derechos reservados: D.L.C.C.</b>
+    </footer>
+
+</body>
+</html>

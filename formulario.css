@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url(fondo.jpg);
+    background-size: 100%;
+}
+
+h1{
+    font-family: 'Lobster', cursive;
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.form_regi{
+    width: 560px;
+    padding: 40px;
+    margin: auto;
+    margin-top: 70px;
+    margin-left: 650px;
+    margin-block-end: 70px;
+    background: whitesmoke;
+    display: block;
+}
+
+.campo{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    border: 1px solid;
+    font-family: 'Secular One', sans-serif;
+}
+
+input[type="submit"]{
+    width: 100%;
+    background-color: #0c0a0a;
+    color: white;
+    padding: 10px 20px;
+    border: 1px solid rgb(19, 10, 10);
+    border-radius: 3px;
+    cursor: pointer;
+    font-family: 'Lobster', cursive;
+    font-size: 20px;
+    /*estilo de la entrada buscar*/
+    
+}
+input[type="submit"]:hover{
+    background-color: #e23933;
+}
+
+footer{
+    background: #e23933;
+    padding: 40px 20px;
+}

@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #d6817e;
+    display: grid;
+    min-height: 100vh;
+    grid-template-rows: auto 1fr auto;
+    position: relative;
+    padding-bottom: 200px;
+}
+
+.logo {
+    background: url(logo1.png) no-repeat 20% 60%;
+    background-size: contain;
+    width: 300px;
+    height: 60px;
+    float: left;
+}
+
+nav {
+    background: white;
+    height: 80px;
+    width: 100%;
+}
+
+.menu{
+    position: absolute;
+    right: 100px;
+    margin-top: 40px;
+    
+}
+
+.menu a{
+    padding: 10px 5px;
+    margin: 5px;
+    color: #0c0a0a;
+    text-decoration: none;
+    font-weight: 700px;
+    text-transform: uppercase;
+    font-family: Arial;
+    
+}
+
+.menu a:hover{
+    background-color: #d6817e;
+    border-radius: 5px;
+}
+
+.control{
+    width: 60%;
+    padding: 5px 20px;
+    margin: auto;
+    margin-top: 0px;
+    margin-block-end: 100px;
+}
+
+.buscar{
+    font-size: 14px; 
+    font-family: 'Lobster', cursive;
+}
+
+input[type="search"]{
+    width: 50%;
+    padding: 12px 20px;
+    margin: 12px 12px;
+    border: 2px solid rgb(19, 10, 10);
+    border-radius: 20px;
+    
+}
+
+input[type="submit"]{
+    background-color: #0c0a0a;
+    transition: color 0.3s;
+    color: white;
+    padding: 12px 20px;
+    border: 2px solid rgb(19, 10, 10);
+    border-radius: 20px;
+    cursor: pointer;
+    
+    /*estilo de la entrada buscar*/
+    
+}
+
+input[type="submit"]:hover{
+    background-color: #e23933;
+    color: black;
+}
+
+h1 {
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 60px;
+}
+
+footer{
+    background: #e23933;
+    padding: 20px 20px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    font-family: Arial;
+}

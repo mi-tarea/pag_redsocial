@@ -1,0 +1,82 @@
+.social-bar{
+    position: fixed;
+    left: 0px;
+    top: 200px;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    z-index: 200px;
+}
+
+.icon{
+    color: white;
+    text-decoration: none;
+    padding: 4px;
+    display: flex;
+    transition: all 2s;
+}
+
+.icon-facebook{
+    background: #0068E1;
+    border-radius: 0px 7px 0px 0px;
+}
+
+.icon-whatsapp{
+    background: #03D349;
+}
+
+.icon-youtube{
+    background: #DB0300;
+}
+
+.icon-instagram{
+    background: #FDCB59;
+    border-radius: 0px 0px 7px 0px;
+}
+
+.icon:hover{
+    padding-left: 30px;
+    border-radius: 7px 0px 0px 7px;
+}
+
+
+/*estilo para red social*/
+.social-fot{
+    position: absolute;
+    left: 550px;
+    font-size: 15px;
+    
+}
+
+.fot{
+    color: white;
+    text-decoration: none;
+    padding: 4px;
+    
+}
+
+.fot-facebook{
+    background: #0068E1;
+    border-radius: 7px 0px 0px 7px;
+}
+
+.fot-whatsapp{
+    background: #03D349;
+}
+
+.fot-youtube{
+    background: #DB0300;
+}
+
+.fot-instagram{
+    background: #FDCB59;
+    border-radius: 0px 7px 7px 0px;
+}
+
+.fot:hover{
+    padding-left: 15px;
+    padding-right: 15px;
+    transition: 1s;
+    border-radius: 7px 7px 7px 7px;
+}
